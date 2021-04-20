@@ -6,7 +6,7 @@ export default function Navibar() {
     return (
         <div>
         <Navbar bg="light" expand="lg">  
-        <Navbar.Brand href="#home"><img src={logo} width = "50px"/></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={logo} alt = "Coderschool" width = "50px"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
